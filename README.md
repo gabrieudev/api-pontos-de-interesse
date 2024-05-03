@@ -55,6 +55,8 @@ Siga esses passos para executar o projeto na sua máquina:
 - `PUT /points`: Atualiza um ponto de interesse existente.
 - `DELETE /points/{id}`: Deleta um ponto de interesse de acordo com o id.
 
+Acesse a documentação completa no endpoint `/swagger-ui.html`
+
 ## Contribuições
 
 Contribuições são muito bem vindas! Caso queira contribuir, faça um fork do repositório e crie um pull request.

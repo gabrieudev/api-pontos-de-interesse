@@ -1,9 +1,9 @@
 # Desafio: API para POIs (pontos de interesse)
 
 ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green) [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/joão-santos-1115a5304/)
-![GPL License](https://img.shields.io/badge/License-GPL-blue) [![LinkedIn](https://img.shields.io/badge/Connect%20on-Desafio-purple)](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md)
+![GPL License](https://img.shields.io/badge/License-GPL-blue) [![LinkedIn](https://img.shields.io/badge/Type-Challenge-purple)](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md)
 
-Essa é a minha solução para o desafio backend **API para POIs (pontos de interesse)**. Acesse a badge "Desafio" acima para obter mais informações do problema.  
+Essa é a minha solução para o desafio backend **API para POIs (pontos de interesse)**. Acesse o [desafio](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md) para obter mais informações do problema.  
 
 ## Tabela de conteúdos
 

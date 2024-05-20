@@ -1,70 +1,77 @@
-# Desafio: API para POIs (pontos de interesse)
+# Challenge: API for Points of Interest (POIs)
 
 ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green) [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/joão-santos-1115a5304/)
 ![GPL License](https://img.shields.io/badge/License-GPL-blue) [![LinkedIn](https://img.shields.io/badge/Type-Challenge-purple)](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md)
 
-Essa é a minha solução para o desafio backend **API para POIs (pontos de interesse)**. Acesse o [desafio](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md) para obter mais informações do problema.  
+This is my solution for the backend challenge **API for Points of Interest (POIs)**. 
 
-## Tabela de conteúdos
+Please select your preferred language:
 
-- [Introdução](#introdução)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Iniciando](#iniciando)
-- [Configuração](#configuração)
-- [Endpoints](#endpoints)
-- [Contribuições](#contribuições)
-- [Contato](#contato)
+- [English](README.md)
+- [Português (Brasil)](README.pt-br.md)
 
-## Introdução
+Check the [challenge](https://github.com/backend-br/desafios/blob/master/points-of-interest/PROBLEM.md) for more details about the problem.
 
-O problema principal no desafio é criar uma rota http GET que retorne os pontos de interesse dentro de um raio X em metros, baseando-se nas coordenadas informadas.
+## Table of Contents
 
-## Funcionalidades
+- Introduction
+- Features
+- Technologies
+- Getting Started
+- Configuration
+- Endpoints
+- Contributions
+- Contact
 
-- CRUD completo para pontos de interesse
-- busca dos pontos de interesse próximos
-- Integração com o banco de dados H2.
+## Introduction
 
-## Tecnologias
+The main problem in the challenge is to create an HTTP GET route that returns points of interest within a radius X in meters, based on the provided coordinates.
 
-- ![Java](https://img.shields.io/badge/Java-8%2B-orange): Linguagem de programação.
-- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green): Framework usado para a construção de aplicações voltadas à produção.
-- ![H2](https://img.shields.io/badge/H2-Database-blue): Banco de dados em memória.
+## Features
 
-## Iniciando
+- Complete CRUD for points of interest
+- Search for nearby points of interest
+- Integration with the H2 database
 
-Siga esses passos para executar o projeto na sua máquina:
+## Technologies
 
-1. Clone o repositório: `git clone https://github.com/gabrieudev/api-pontos-de-interesse.git`
-2. Navegue para o diretório do projeto: `cd <caminho>`
-3. Atualize as configurações de banco de dados no arquivo `application.properties`
-4. Construa a aplicação: `./mvnw clean install` (para Windows: `mvnw.cmd clean install`)
-5. Execute a aplicação: `./mvnw spring-boot:run` (para Windows: `mvnw.cmd spring-boot:run`)
+- ![Java](https://img.shields.io/badge/Java-8%2B-orange): Programming language.
+- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green): Framework used for building production-ready applications.
+- ![H2](https://img.shields.io/badge/H2-Database-blue): In-memory database.
 
-## Configuração
+## Getting Started
 
-- Configuração de banco de dados: atualize o arquivo `application.properties` com as informações do seu banco de dados H2.
+Follow these steps to run the project on your machine:
+
+1. Clone the repository: `git clone https://github.com/gabrieudev/api-pontos-de-interesse.git`
+2. Navigate to the project directory: `cd <path>`
+3. Update the database configurations in the `application.properties` file.
+4. Build the project: `./mvnw clean install` (for Windows: `mvnw.cmd clean install`)
+5. Run the application: `./mvnw spring-boot:run` (for Windows: `mvnw.cmd spring-boot:run`)
+
+## Configuration
+
+- Database configuration: Update the `application.properties` file with your H2 database information.
 
 ## Endpoints
 
-- `POST /points`: Registra um novo ponto de interesse.
-- `GET /points`: Obtém todos os pontos de interesse registrados.
-- `GET /points/{id}`: Obtém um ponto de interesse de acordo com o id.
-- `GET /points/{x}/{y}/{dMax}`: Obtém todos os pontos de interesse dentro da distância máxima informada, tendo as coordenadas X e Y como ponto de referência.
-- `PUT /points`: Atualiza um ponto de interesse existente.
-- `DELETE /points/{id}`: Deleta um ponto de interesse de acordo com o id.
+- `POST /points`: Registers a new point of interest.
+- `GET /points`: Retrieves all registered points of interest.
+- `GET /points/{id}`: Retrieves a point of interest by its ID.
+- `GET /points/{x}/{y}/{dMax}`: Retrieves all points of interest within the maximum distance informed, using the X and Y coordinates as the reference point.
+- `PUT /points`: Updates an existing point of interest.
+- `DELETE /points/{id}`: Deletes a point of interest by its ID.
 
-Acesse a documentação completa no endpoint `/swagger-ui.html`
+Access the complete documentation at the `/swagger-ui.html` endpoint.
 
-## Contribuições
+## Contributions
 
-Contribuições são muito bem vindas! Caso queira contribuir, faça um fork do repositório e crie um pull request.
+Contributions are very welcome! If you want to contribute, fork the repository and create a pull request.
 
-## Contato
+## Contact
 
-Caso tenha alguma sugestão ou dúvida, entre em contato comigo em [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/)
+If you have any suggestions or questions, please contact me on [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/).
 
 ---
 
-**Licença:** Esse projeto é licenciado sob os termos da [GNU General Public License (GPL)](LICENSE).
+**License:** This project is licensed under the terms of the [GNU General Public License (GPL)](LICENSE).

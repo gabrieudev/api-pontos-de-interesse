@@ -43,7 +43,7 @@ The main problem in the challenge is to create an HTTP GET route that returns po
 
 Follow these steps to run the project on your machine:
 
-1. Clone the repository: `git clone https://github.com/gabrieudev/api-pontos-de-interesse.git`
+1. Clone the repository: `git clone https://github.com/gabrieudev/points-of-interest.git`
 2. Navigate to the project directory: `cd <path>`
 3. Update the database configurations in the `application.properties` file.
 4. Build the project: `./mvnw clean install` (for Windows: `mvnw.cmd clean install`)

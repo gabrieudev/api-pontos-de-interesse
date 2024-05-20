@@ -36,7 +36,7 @@ O problema principal no desafio é criar uma rota http GET que retorne os pontos
 
 Siga esses passos para executar o projeto na sua máquina:
 
-1. Clone o repositório: `git clone https://github.com/gabrieudev/api-pontos-de-interesse.git`
+1. Clone o repositório: `git clone https://github.com/gabrieudev/points-of-interest.git`
 2. Navegue para o diretório do projeto: `cd <caminho>`
 3. Atualize as configurações de banco de dados no arquivo `application.properties`
 4. Construa a aplicação: `./mvnw clean install` (para Windows: `mvnw.cmd clean install`)

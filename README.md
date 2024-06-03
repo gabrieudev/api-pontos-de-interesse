@@ -70,7 +70,7 @@ Contributions are very welcome! If you want to contribute, fork the repository a
 
 ## Contact
 
-If you have any suggestions or questions, please contact me on [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/).
+If you have any suggestions or questions, please contact me on [LinkedIn](https://www.linkedin.com/in/gabrieudev/).
 
 ---
 

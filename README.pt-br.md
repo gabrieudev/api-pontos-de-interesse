@@ -63,7 +63,7 @@ Contribuições são muito bem vindas! Caso queira contribuir, faça um fork do 
 
 ## Contato
 
-Caso tenha alguma sugestão ou dúvida, entre em contato comigo em [LinkedIn](https://www.linkedin.com/in/joão-santos-1115a5304/)
+Caso tenha alguma sugestão ou dúvida, entre em contato comigo em [LinkedIn](https://www.linkedin.com/in/gabrieudev/)
 
 ---
 
